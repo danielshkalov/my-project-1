@@ -1,0 +1,85 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: azure;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*header section*/
+
+.header-container {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../css/images/banner\ head.jpg);
+    color: aliceblue;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header-time {
+    margin: 10px;
+    color: aliceblue;
+}
+
+.header-list {
+    list-style: none;
+    position: relative;
+    display: flex;
+    margin: 10px 30px 10px 270px;
+    gap: 30px;
+}
+
+.header-item {
+    color: aliceblue;
+}
+
+.header-contacts-list {
+    padding-left: 850px;
+}
+
+.header-contacts {
+    list-style: none;
+    position: relative;
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.header-conta {
+    color: aliceblue;
+}
+
+/*section logo*/
+
+.first-logo {
+    padding: 300px 0 300px 0;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3),
+        rgba(255, 0, 0, 0.3)), url(./images/section\ 1\ bunner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.first-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-list {
+    margin: 10px 900px 10px 900px;
+    background-color:crimson;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: black;
+}
