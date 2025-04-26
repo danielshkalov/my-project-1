@@ -9,19 +9,18 @@ body{
 /*header section*/
 
 .header-container {
+    justify-content: space-between;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../css/images/banner\ head.jpg);
     color: aliceblue;
     background-color: brown;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-time {
-    margin: 10px;
     color: aliceblue;
 }
 
@@ -29,7 +28,6 @@ body{
     list-style: none;
     position: relative;
     display: flex;
-    margin: 10px 30px 10px 270px;
     gap: 30px;
 }
 
@@ -74,12 +72,31 @@ body{
 }
 
 .button-list {
-    margin: 10px 900px 10px 900px;
-    background-color:crimson;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: black;
+    margin: 20px auto;
+    display: block;
+    padding: 12px 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-list:hover {
+    background-color: darkred;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header-list,
+    .header-contacts {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 10px;
+    }
+
+    .button-list {
+    width: 80%;
+    margin: 20px auto;
+    }
 }
